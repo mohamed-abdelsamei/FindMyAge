@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">FindMyAge</string>
+    <string name="app_name">Find My Age</string>
+    <string name="text_view_hint">Your age will shows here </string>
+    <string name="edit_text_hint">Enter year of birth</string>
 </resources>

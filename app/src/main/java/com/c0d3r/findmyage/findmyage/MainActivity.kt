@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
         val YearOfBirth = editText.text.toString().toInt()
         val CurrentYear = Calendar.getInstance().get(Calendar.YEAR)
         val age = CurrentYear - YearOfBirth
-        textView.text = "Your Age is $age Years"
+        textView.setText("Your Age is $age Years")
     }
 }
